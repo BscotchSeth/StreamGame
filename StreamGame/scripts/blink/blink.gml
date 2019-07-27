@@ -1,10 +1,10 @@
 if blinking <= 0 {
-	if random(1) <= 2/room_speed {
-		blinking += 1/room_speed;
+	if random(1) <= 2*SLOMO_SECONDS {
+		blinking += SLOMO_SECONDS;
 	}
 }
 else {
-	blinking += 1/room_speed;
+	blinking += SLOMO_SECONDS;
 	if blinking >= 1 {
 		blinking = 0;
 	}
