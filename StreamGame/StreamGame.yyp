@@ -247,6 +247,14 @@
             }
         },
         {
+            "Key": "57109586-33ba-43c6-9321-7a9b3777b0a5",
+            "Value": {
+                "id": "5433df27-05f8-4407-936c-41624afc6ae5",
+                "resourcePath": "scripts\\draw_shadow\\draw_shadow.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "5732512b-7d54-4a70-ac60-2629b4f16d84",
             "Value": {
                 "id": "55876a1e-3ee6-44bc-844b-6ccf187b7601",
@@ -380,6 +388,14 @@
                 "id": "e26a5fb2-6bff-4444-92c7-e0615b817e9e",
                 "resourcePath": "views\\8d7b22c2-927a-49dd-81fa-0c790d48d1da.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "918e78ea-74cc-4c80-89f0-d182e0d7d364",
+            "Value": {
+                "id": "6951b758-ed79-43fc-b988-d8ced925a926",
+                "resourcePath": "objects\\o_shadowdraw\\o_shadowdraw.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -665,7 +681,8 @@
         "015b8c3f-8e57-4ffe-96f2-3c6c11447365",
         "ced7f941-1538-4ab1-a890-171bbeb90923",
         "e6ebb407-f302-480c-a75f-bc816414d100",
-        "8503774a-85cd-490f-a302-5a4e005b02cd"
+        "8503774a-85cd-490f-a302-5a4e005b02cd",
+        "57109586-33ba-43c6-9321-7a9b3777b0a5"
     ],
     "tutorial": ""
 }

@@ -8,5 +8,7 @@
 init_time();
 
 globalvar GRAVITY; GRAVITY = 4000;
+globalvar BACKGROUND_DEPTH;		BACKGROUND_DEPTH = 20000;
+globalvar SHADOW_DEPTH;			SHADOW_DEPTH = 10000;
 
 room_goto(rm_mainmenu);
