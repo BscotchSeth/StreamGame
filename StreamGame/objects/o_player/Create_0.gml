@@ -11,3 +11,5 @@ keyboard_inputs[2] = ord("A");
 keyboard_inputs[3] = ord("S");
 
 movespeed_base = 400;
+
+squish_init();

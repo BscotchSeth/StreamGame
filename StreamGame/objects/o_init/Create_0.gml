@@ -7,4 +7,6 @@
 
 init_time();
 
+globalvar GRAVITY; GRAVITY = 4000;
+
 room_goto(rm_mainmenu);

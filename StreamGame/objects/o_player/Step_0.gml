@@ -21,4 +21,13 @@ if (abs(movement_input_x) != 0 || abs(movement_input_y) != 0) {
 	
 	x += lengthdir_x(this_frame_movement_pixels, movement_dir);
 	y += lengthdir_y(this_frame_movement_pixels, movement_dir);
+	
+	if z >= 0 {
+		#region Player bounce
+		zspeed = -500;
+		squish_set(.2);
+		#endregion
+	}
 }
+
+update_z();
