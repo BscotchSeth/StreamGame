@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "069bbcc3-9a8f-4b10-9ffa-da5437785705",
+            "Value": {
+                "id": "45c748f2-9d4c-420e-b5ed-63a84920b64b",
+                "resourcePath": "scripts\\gui_bottom\\gui_bottom.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1338f0f9-3974-4f9a-97d2-4c547165bbcb",
             "Value": {
                 "id": "56c5abfb-b110-4add-82be-d0dc7d766528",
@@ -55,10 +63,34 @@
             }
         },
         {
+            "Key": "1cd0119f-a1d5-4cd2-a4c1-f923bff9dd17",
+            "Value": {
+                "id": "2d99e02f-9e84-4c55-9eb9-b9058f585482",
+                "resourcePath": "scripts\\gui_center_y\\gui_center_y.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "1ec12eca-6600-41a5-a018-cf0b447b1e34",
+            "Value": {
+                "id": "c9720f64-16f7-4af7-80db-f4f16a43c19b",
+                "resourcePath": "scripts\\drawtext\\drawtext.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1f256806-ebab-462a-9b87-802d72f107ba",
             "Value": {
                 "id": "92ae1aaa-2ecf-404a-be33-56e8f6553857",
                 "resourcePath": "views\\1f256806-ebab-462a-9b87-802d72f107ba.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2892c9ad-b7c3-4879-a284-e772a46873ca",
+            "Value": {
+                "id": "af239063-049d-4628-9c61-4844a7c0befc",
+                "resourcePath": "views\\2892c9ad-b7c3-4879-a284-e772a46873ca.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -119,6 +151,14 @@
             }
         },
         {
+            "Key": "4d120fd6-89da-48d2-9e52-5daf1884309b",
+            "Value": {
+                "id": "81c5761c-3285-452c-a6ff-eee9b0242004",
+                "resourcePath": "fonts\\fnt_reg\\fnt_reg.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "4f07a1a6-fe5a-4ea9-a074-1b5bdb181812",
             "Value": {
                 "id": "2c76c806-0632-48a5-abf7-d1603c9c978f",
@@ -131,6 +171,14 @@
             "Value": {
                 "id": "55876a1e-3ee6-44bc-844b-6ccf187b7601",
                 "resourcePath": "scripts\\view_right\\view_right.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "59258efb-93ed-42b1-a1e9-0a3ecdf03899",
+            "Value": {
+                "id": "dce7e3a5-d444-4a58-a66e-911a66eab3c2",
+                "resourcePath": "scripts\\gui_height\\gui_height.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -175,6 +223,14 @@
             }
         },
         {
+            "Key": "6fb0dca3-d72a-40c6-aa57-55260e17a4f7",
+            "Value": {
+                "id": "7b3da06a-5458-4506-b013-50bd18bb65cd",
+                "resourcePath": "scripts\\gui_right\\gui_right.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "72adff3e-b0fb-46ed-98f7-0a038c8e2f86",
             "Value": {
                 "id": "3511c8e8-efe3-4837-8175-f5428f374930",
@@ -204,6 +260,14 @@
                 "id": "f53e2431-9afa-4dd0-8f59-9a9014e3847f",
                 "resourcePath": "options\\tvos\\options_tvos.yy",
                 "resourceType": "GMtvOSOptions"
+            }
+        },
+        {
+            "Key": "9500f067-7f1b-4d53-8f0c-8dda3d2f46ad",
+            "Value": {
+                "id": "70b40658-4a4e-49d4-b1c5-13beb88a175e",
+                "resourcePath": "scripts\\gui_center_x\\gui_center_x.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -276,6 +340,14 @@
                 "id": "97094765-cdd6-4a3e-a987-0f81f6857d6d",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d2e0d1b4-d0f3-4d73-a045-d95275a47e9b",
+            "Value": {
+                "id": "b9f82fca-67a5-451b-94ba-e3bac3e4a078",
+                "resourcePath": "scripts\\gui_width\\gui_width.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -377,13 +449,20 @@
     ],
     "script_order": [
         "64f6e418-ec53-4c52-8867-64a3bb9e1231",
+        "1ec12eca-6600-41a5-a018-cf0b447b1e34",
         "ab908dce-72c0-47de-82d0-c8c97e4485e4",
         "4f07a1a6-fe5a-4ea9-a074-1b5bdb181812",
         "eda4b7fb-6c43-497a-9a19-8319cc93e318",
         "340230cf-ba97-494b-bf03-e8e4422fedff",
         "6c90ea85-e5e2-4d64-b67d-fecd74394033",
         "5732512b-7d54-4a70-ac60-2629b4f16d84",
-        "a735f72d-595f-42fd-bd9f-ab0fb506d326"
+        "a735f72d-595f-42fd-bd9f-ab0fb506d326",
+        "9500f067-7f1b-4d53-8f0c-8dda3d2f46ad",
+        "1cd0119f-a1d5-4cd2-a4c1-f923bff9dd17",
+        "6fb0dca3-d72a-40c6-aa57-55260e17a4f7",
+        "069bbcc3-9a8f-4b10-9ffa-da5437785705",
+        "59258efb-93ed-42b1-a1e9-0a3ecdf03899",
+        "d2e0d1b4-d0f3-4d73-a045-d95275a47e9b"
     ],
     "tutorial": ""
 }
