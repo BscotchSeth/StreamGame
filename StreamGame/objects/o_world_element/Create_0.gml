@@ -5,3 +5,4 @@ shadow_draw = true;
 z		= 0;
 zspeed	= 0;
 
+xscale = 1;
