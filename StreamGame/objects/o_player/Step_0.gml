@@ -33,3 +33,5 @@ if (abs(movement_input_x) != 0 || abs(movement_input_y) != 0) {
 }
 
 update_z();
+
+update_world_depth();

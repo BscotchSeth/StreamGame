@@ -215,6 +215,14 @@
             }
         },
         {
+            "Key": "4c79d1e0-1b5a-4139-859f-03f890036c38",
+            "Value": {
+                "id": "8a8dcb49-c315-4c75-a4a7-439e0e35029f",
+                "resourcePath": "sprites\\sp_berry\\sp_berry.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4d120fd6-89da-48d2-9e52-5daf1884309b",
             "Value": {
                 "id": "81c5761c-3285-452c-a6ff-eee9b0242004",
@@ -268,6 +276,14 @@
                 "id": "dce7e3a5-d444-4a58-a66e-911a66eab3c2",
                 "resourcePath": "scripts\\gui_height\\gui_height.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "60290c2a-1a4b-4a43-82aa-24b4c5da6ba1",
+            "Value": {
+                "id": "6294db2c-f640-4105-b7c3-4cf1bf54d5ab",
+                "resourcePath": "objects\\o_berry\\o_berry.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -348,6 +364,14 @@
                 "id": "a24bffc9-4a24-4479-a695-eb81f91dde87",
                 "resourcePath": "options\\ios\\options_ios.yy",
                 "resourceType": "GMiOSOptions"
+            }
+        },
+        {
+            "Key": "8503774a-85cd-490f-a302-5a4e005b02cd",
+            "Value": {
+                "id": "3e274e9f-294b-46d1-95cb-b8b598234369",
+                "resourcePath": "scripts\\update_world_depth\\update_world_depth.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -640,7 +664,8 @@
         "a3b1d080-f8bb-457d-b512-98a68694b996",
         "015b8c3f-8e57-4ffe-96f2-3c6c11447365",
         "ced7f941-1538-4ab1-a890-171bbeb90923",
-        "e6ebb407-f302-480c-a75f-bc816414d100"
+        "e6ebb407-f302-480c-a75f-bc816414d100",
+        "8503774a-85cd-490f-a302-5a4e005b02cd"
     ],
     "tutorial": ""
 }
