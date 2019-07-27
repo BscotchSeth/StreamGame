@@ -1,0 +1,1 @@
+draw_fullscreen_color(rgb(76,113,4), 1, rgb(108,146,11))

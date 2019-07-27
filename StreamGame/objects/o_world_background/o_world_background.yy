@@ -1,18 +1,28 @@
 {
-    "id": "30e9c021-16c0-4590-a50b-e5d6202c5339",
+    "id": "ebe80fb1-6e99-497c-8adc-7c8ba8e01988",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_gameplay_controller",
+    "name": "o_world_background",
     "eventList": [
         {
-            "id": "be94b5e4-07c0-463f-8fe1-c418ed2a1486",
+            "id": "9db4927a-1ad3-4898-9e0e-b93d6e1462b6",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "ebe80fb1-6e99-497c-8adc-7c8ba8e01988"
+        },
+        {
+            "id": "82f7a568-4021-4e33-b175-39954b06ab41",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "30e9c021-16c0-4590-a50b-e5d6202c5339"
+            "m_owner": "ebe80fb1-6e99-497c-8adc-7c8ba8e01988"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",

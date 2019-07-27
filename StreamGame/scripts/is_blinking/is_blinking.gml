@@ -1,0 +1,1 @@
+return blinking > 0 && blinking < .15;
