@@ -16,4 +16,14 @@ globalvar BACKGROUND_DEPTH;	BACKGROUND_DEPTH = 60000;
 globalvar TERRAIN_DEPTH;	TERRAIN_DEPTH	 = 50000;
 globalvar SHADOW_DEPTH;		SHADOW_DEPTH	 = 40000;
 
+var xg = 480;
+var yg = 129;
+
+echo(xg, ",", yg);
+var coord = grid_to_coord(xg,yg);
+echo("Coord:", coord);
+var xy = coord_to_grid(coord);
+echo(xy);
+
+
 room_goto(rm_mainmenu);

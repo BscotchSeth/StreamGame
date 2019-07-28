@@ -6,6 +6,8 @@ var room_center_xg	= argument0;
 var room_center_yg	= argument1;
 var room_radius		= argument2;
 
+ds_list_add(ROOM_CENTERS, [room_center_xg, room_center_yg]);
+
 for ( var xg = room_center_xg-room_radius; xg <= room_center_xg+room_radius; xg++){
 	for ( var yg = room_center_yg+room_radius; yg >= room_center_yg-room_radius; yg--){
 		// NOW WHAT DO WE DO?
