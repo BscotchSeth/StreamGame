@@ -527,6 +527,14 @@
             }
         },
         {
+            "Key": "9d94e87e-9580-47e7-a3bf-06f81bcfdc7d",
+            "Value": {
+                "id": "9c404228-2f50-462e-b590-0833a007cd63",
+                "resourcePath": "sprites\\sp_tl_edge\\sp_tl_edge.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a128950b-5063-4876-b4a6-b99dbd2ea6d1",
             "Value": {
                 "id": "b156e19f-520e-4401-abde-4c1a4a918d2c",

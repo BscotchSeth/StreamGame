@@ -34,6 +34,24 @@ while ds_list_size(ROOM_CENTERS) < num_rooms {
 }
 #endregion
 
+#region Update terrain types for edges
+for ( var i = 0; i < ds_list_size(TERRAIN_LOCATIONS); i++){
+	var this_coord = TERRAIN_LOCATIONS[|i];
+	var this_xy = coord_to_grid(this_coord);
+	var is_edge = false;
+	
+	for ( var xg = this_xy[0]-1; xg <= this_xy[0]+1 && !is_edge; xg++){
+		for ( var yg = this_xy[1]-1; yg <= this_xy[1]+1 && !is_edge; yg++){
+			var coord_to_check = grid_to_coord(xg,yg);
+			if !ds_map_exists(TERRAIN_TYPES, coord_to_check) {
+				is_edge = true;
+				TERRAIN_TYPES[?this_coord] = terrain_type.edge;
+			}
+		}	
+	}
+}
+#endregion
+
 #region Spawn the visuals
 var spawn_order = ds_priority_create();
 for ( var i = 0; i < ds_list_size(TERRAIN_LOCATIONS); i++){
@@ -46,9 +64,15 @@ for ( var i = 0; i < ds_list_size(TERRAIN_LOCATIONS); i++){
 while !ds_priority_empty(spawn_order) {
 	var this_coord = ds_priority_delete_max(spawn_order);
 	var this_xy = coord_to_grid(this_coord);
+	var sprite_to_spawn = sp_tl_dirt;
+	
+	if TERRAIN_TYPES[?this_coord] == terrain_type.edge {
+		sprite_to_spawn = sp_tl_edge;
+	}
+	
 	var sp = layer_sprite_create(WORLD_LAYER,
 		grid_to_x(this_xy[0])+irandom_range(-2,2),
-		grid_to_y(this_xy[1])+irandom_range(-2,2), sp_tl_dirt);
+		grid_to_y(this_xy[1])+irandom_range(-2,2), sprite_to_spawn);
 	
 	layer_sprite_blend(sp, color_darken(c_white, random_range(.93,1)));
 }
