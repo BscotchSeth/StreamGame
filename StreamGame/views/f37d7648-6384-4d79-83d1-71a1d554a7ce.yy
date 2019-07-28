@@ -5,7 +5,8 @@
     "name": "f37d7648-6384-4d79-83d1-71a1d554a7ce",
     "children": [
         "fbea8fa2-e6e9-4064-b5fe-26478f03f41a",
-        "c17ae968-8521-4e49-8871-eddd6fb98855"
+        "c17ae968-8521-4e49-8871-eddd6fb98855",
+        "3d7ad5dc-b891-4a29-be2e-3532bca6acb5"
     ],
     "filterType": "GMScript",
     "folderName": "StageGeneration",

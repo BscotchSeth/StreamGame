@@ -1,0 +1,1 @@
+globalvar WORLD_LAYER; WORLD_LAYER = -1;
