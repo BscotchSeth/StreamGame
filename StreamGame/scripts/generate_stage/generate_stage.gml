@@ -4,7 +4,7 @@ a "room" is just a chunk of terrain floating in the world
 Rooms are connected by "hallways" or "bridges"
 */
 
-WORLD_LAYER = layer_create(1000);
+WORLD_LAYER = layer_create(TERRAIN_DEPTH);
 
 var num_rooms		= irandom_range(5,10);
 var room_min_radius	= 3;

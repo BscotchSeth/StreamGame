@@ -1,3 +1,5 @@
+randomize();
+
 #macro rgb make_colour_rgb
 
 #macro c_softblue make_colour_rgb(32,105,255)
@@ -7,9 +9,11 @@
 
 init_time();
 init_grid();
+init_stage_generation();
 
 globalvar GRAVITY;			GRAVITY = 4000;
-globalvar BACKGROUND_DEPTH;	BACKGROUND_DEPTH = 20000;
-globalvar SHADOW_DEPTH;		SHADOW_DEPTH = 10000;
+globalvar BACKGROUND_DEPTH;	BACKGROUND_DEPTH = 60000;
+globalvar TERRAIN_DEPTH;	TERRAIN_DEPTH	 = 50000;
+globalvar SHADOW_DEPTH;		SHADOW_DEPTH	 = 40000;
 
 room_goto(rm_mainmenu);
