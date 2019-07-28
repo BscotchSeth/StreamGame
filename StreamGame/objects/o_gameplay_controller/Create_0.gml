@@ -7,11 +7,12 @@ instance_create(o_camera, 0, 0);
 
 camera_set_target(player_instance);
 
-var num_berries = 300;
-var spawn_range = 2000;
+var berry_spawn_chance	= .05;
 
-repeat(num_berries) {
-	var xspawn = random_range(-spawn_range, spawn_range);
-	var yspawn = random_range(-spawn_range, spawn_range);
-	instance_create(o_berry, xspawn, yspawn);
+for ( var xg = -100; xg <= 100; xg++){ 
+	for ( var yg = -100; yg <= 100; yg++){ 
+		if random(1) <= berry_spawn_chance {
+			instance_create(o_berry, grid_to_x(xg), grid_to_y(yg));	
+		}
+	}	
 }
