@@ -247,6 +247,14 @@
             }
         },
         {
+            "Key": "56a4caa4-33b3-40e1-9e41-f470c1fdf9cd",
+            "Value": {
+                "id": "bd8a26ce-6d2d-40ad-8307-7862d899dec7",
+                "resourcePath": "views\\56a4caa4-33b3-40e1-9e41-f470c1fdf9cd.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "57109586-33ba-43c6-9321-7a9b3777b0a5",
             "Value": {
                 "id": "5433df27-05f8-4407-936c-41624afc6ae5",
@@ -367,6 +375,22 @@
             }
         },
         {
+            "Key": "742a4866-0118-4878-b2b8-da31b476c3d0",
+            "Value": {
+                "id": "dcf6dc9c-339f-408d-a02a-7a3b0961a544",
+                "resourcePath": "scripts\\camera_set_target\\camera_set_target.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "7a50cd4b-df3a-47e0-8495-c2b144b81693",
+            "Value": {
+                "id": "12d1c267-fc70-438c-a77a-9cc5ab813475",
+                "resourcePath": "scripts\\view_height\\view_height.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "8427047f-9ef8-4c77-89f3-9c20623d07b6",
             "Value": {
                 "id": "a24bffc9-4a24-4479-a695-eb81f91dde87",
@@ -479,6 +503,14 @@
             }
         },
         {
+            "Key": "ac11a8ab-6975-4cd3-9cdd-5a925996ec9f",
+            "Value": {
+                "id": "d284839c-d7e7-4e43-ad27-7bbefa6134a6",
+                "resourcePath": "scripts\\view_width\\view_width.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "b3395f7c-00d7-4cb7-8441-99c9aa42ef6b",
             "Value": {
                 "id": "2ca36763-a539-4315-83a6-ef993054a385",
@@ -556,6 +588,14 @@
                 "id": "39ec18d8-0987-4518-b17e-3c2d208780b3",
                 "resourcePath": "options\\android\\options_android.yy",
                 "resourceType": "GMAndroidOptions"
+            }
+        },
+        {
+            "Key": "e654446e-f186-4dad-8182-1ba581b6f896",
+            "Value": {
+                "id": "df2ed2f6-e787-43a8-a640-64940c8fb744",
+                "resourcePath": "objects\\o_camera\\o_camera.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -669,8 +709,10 @@
         "eda4b7fb-6c43-497a-9a19-8319cc93e318",
         "340230cf-ba97-494b-bf03-e8e4422fedff",
         "6c90ea85-e5e2-4d64-b67d-fecd74394033",
-        "5732512b-7d54-4a70-ac60-2629b4f16d84",
         "a735f72d-595f-42fd-bd9f-ab0fb506d326",
+        "5732512b-7d54-4a70-ac60-2629b4f16d84",
+        "ac11a8ab-6975-4cd3-9cdd-5a925996ec9f",
+        "7a50cd4b-df3a-47e0-8495-c2b144b81693",
         "9500f067-7f1b-4d53-8f0c-8dda3d2f46ad",
         "1cd0119f-a1d5-4cd2-a4c1-f923bff9dd17",
         "6fb0dca3-d72a-40c6-aa57-55260e17a4f7",
@@ -682,7 +724,8 @@
         "ced7f941-1538-4ab1-a890-171bbeb90923",
         "e6ebb407-f302-480c-a75f-bc816414d100",
         "8503774a-85cd-490f-a302-5a4e005b02cd",
-        "57109586-33ba-43c6-9321-7a9b3777b0a5"
+        "57109586-33ba-43c6-9321-7a9b3777b0a5",
+        "742a4866-0118-4878-b2b8-da31b476c3d0"
     ],
     "tutorial": ""
 }
