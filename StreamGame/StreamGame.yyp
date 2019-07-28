@@ -335,6 +335,14 @@
             }
         },
         {
+            "Key": "60ac693c-fac7-43d8-a775-7e3bec0e3843",
+            "Value": {
+                "id": "67f56c7e-953b-4d3e-9af8-7b568b557969",
+                "resourcePath": "scripts\\color_darken\\color_darken.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "64f6e418-ec53-4c52-8867-64a3bb9e1231",
             "Value": {
                 "id": "dd9723de-2caf-4883-8c19-a04b11a113ab",
@@ -827,6 +835,7 @@
         "64f6e418-ec53-4c52-8867-64a3bb9e1231",
         "1ec12eca-6600-41a5-a018-cf0b447b1e34",
         "ab908dce-72c0-47de-82d0-c8c97e4485e4",
+        "60ac693c-fac7-43d8-a775-7e3bec0e3843",
         "6868a49b-9819-4f60-8681-6b9df6e18108",
         "42b0124e-ae76-4867-b664-904319ca5409",
         "5811bdac-0f0b-43b7-a401-f28563537f14",
