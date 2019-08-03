@@ -7,7 +7,9 @@
         "fbea8fa2-e6e9-4064-b5fe-26478f03f41a",
         "c17ae968-8521-4e49-8871-eddd6fb98855",
         "3d7ad5dc-b891-4a29-be2e-3532bca6acb5",
-        "9b5721e5-f4cf-455b-a20a-1c214b8d2068"
+        "c205e25f-ba6c-415e-a551-61f1069a9d01",
+        "9b5721e5-f4cf-455b-a20a-1c214b8d2068",
+        "413477fa-827c-4d45-96e1-c9f3a6169d9f"
     ],
     "filterType": "GMScript",
     "folderName": "StageGeneration",

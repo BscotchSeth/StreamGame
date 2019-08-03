@@ -12,11 +12,7 @@ for ( var xg = room_center_xg-room_radius; xg <= room_center_xg+room_radius; xg+
 	for ( var yg = room_center_yg+room_radius; yg >= room_center_yg-room_radius; yg--){
 		// NOW WHAT DO WE DO?
 		if point_distance(xg, yg, room_center_xg, room_center_yg) <= room_radius {			
-			var this_position_coords = grid_to_coord(xg, yg);
-			if !ds_map_exists(TERRAIN_TYPES, this_position_coords) {
-				ds_map_add(TERRAIN_TYPES, this_position_coords, terrain_type.interior);
-				ds_list_add(TERRAIN_LOCATIONS, this_position_coords);
-			}
+			set_terrain_at_pos(xg, yg, terrain_type.interior);
 		}
 	}
 }

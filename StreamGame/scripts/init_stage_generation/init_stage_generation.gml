@@ -10,5 +10,6 @@ globalvar TERRAIN_TYPES; TERRAIN_TYPES = ds_map_create();
 
 enum terrain_type {
 	interior,
-	edge
+	edge,
+	bridge
 }
