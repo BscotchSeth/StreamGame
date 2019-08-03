@@ -1,5 +1,5 @@
-globalvar GRID_WIDTH;	GRID_WIDTH	= 100;
-globalvar GRID_HEIGHT;	GRID_HEIGHT = 75;
+globalvar GRID_WIDTH;	GRID_WIDTH	= 184;
+globalvar GRID_HEIGHT;	GRID_HEIGHT = 106;
 globalvar GRID_RATIO;	GRID_RATIO	= GRID_HEIGHT/GRID_WIDTH;
 
 globalvar GRID_BUFFER; GRID_BUFFER = buffer_create(4, buffer_fixed, 1);
