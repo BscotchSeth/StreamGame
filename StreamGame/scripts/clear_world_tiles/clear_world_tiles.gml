@@ -1,0 +1,1 @@
+layer_destroy(WORLD_LAYER);

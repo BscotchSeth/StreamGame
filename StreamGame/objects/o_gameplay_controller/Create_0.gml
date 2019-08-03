@@ -8,3 +8,5 @@ instance_create(o_camera, 0, 0);
 camera_set_target(player_instance);
 
 generate_stage();
+
+restarting_room = false;

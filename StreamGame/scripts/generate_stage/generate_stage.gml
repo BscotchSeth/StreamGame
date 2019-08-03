@@ -4,11 +4,14 @@ a "room" is just a chunk of terrain floating in the world
 Rooms are connected by "hallways" or "bridges"
 */
 
+clear_world_tiles();
 WORLD_LAYER = layer_create(TERRAIN_DEPTH);
 
+ds_map_clear(TERRAIN_TYPES);
 ds_list_clear(ROOM_CENTERS);
+ds_list_clear(TERRAIN_LOCATIONS);
 
-var num_rooms		= irandom_range(5,10);
+var num_rooms		= irandom_range(5,100);
 var room_min_radius	= 3;
 var room_max_radius	= 7;
 
@@ -17,14 +20,17 @@ var room_yg = 0;
 
 var room_radius = irandom_range(room_min_radius,room_max_radius);
 
+var main_direction	= irandom(359);
+var angle_range		= 130;
+
 #region Set the locations of the rooms
 while ds_list_size(ROOM_CENTERS) < num_rooms {
 	var this_room_center = [room_xg, room_yg];
-
+	
 	generate_stage_room(room_xg, room_yg, room_radius);
 	
 	var new_room_radius		= irandom_range(room_min_radius,room_max_radius);
-	var new_room_direction	= irandom(359);
+	var new_room_direction	= main_direction + random_range(-angle_range,angle_range);// irandom(359);
 	var bridge_length		= irandom_range(2,5);
 	var new_room_distance_from_current_room	= room_radius + new_room_radius + bridge_length;
 	
@@ -77,6 +83,7 @@ while !ds_priority_empty(spawn_order) {
 		world_xy[1]+irandom_range(-2,2), sprite_to_spawn);
 	
 	layer_sprite_blend(sp, color_darken(c_white, random_range(.93,1)));
+	ds_list_add(TILES_LIST, sp);
 }
 
 ds_priority_destroy(spawn_order);

@@ -543,6 +543,14 @@
             }
         },
         {
+            "Key": "9b5721e5-f4cf-455b-a20a-1c214b8d2068",
+            "Value": {
+                "id": "6b870623-9e4b-44c1-97ca-7f40a96d7589",
+                "resourcePath": "scripts\\clear_world_tiles\\clear_world_tiles.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "9d3c3da6-c174-4bad-8bcc-87d5ca0bb0b3",
             "Value": {
                 "id": "0a710c2e-6509-40d6-92a4-30d943ba3daf",
@@ -880,7 +888,8 @@
         "e467ed8e-e1f7-4a72-9afc-9aec21a9c4e3",
         "fbea8fa2-e6e9-4064-b5fe-26478f03f41a",
         "c17ae968-8521-4e49-8871-eddd6fb98855",
-        "3d7ad5dc-b891-4a29-be2e-3532bca6acb5"
+        "3d7ad5dc-b891-4a29-be2e-3532bca6acb5",
+        "9b5721e5-f4cf-455b-a20a-1c214b8d2068"
     ],
     "tutorial": ""
 }
