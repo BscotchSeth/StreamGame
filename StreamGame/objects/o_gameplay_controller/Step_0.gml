@@ -20,24 +20,9 @@ for ( var i = ds_list_size(TILES_WITH_Z_OFFSET)-1; i >= 0; i--){
 }
 
 //if mouse_check_button(mb_left) {
-	var mouse_grid_xy = world_to_grid(mouse_x, mouse_y);
-	tile_set_z(mouse_grid_xy[0], mouse_grid_xy[1], 50);
+//	var mouse_grid_xy = world_to_grid(mouse_x, mouse_y);
+//	tile_set_z(mouse_grid_xy[0], mouse_grid_xy[1], 50);
 //}
-
-/*
-if ds_map_exists(TILES_SPAWNED, coords) {
-	
-	if !ds_map_exists(TILE_ZOFFSETS, coords) {
-		
-		var tile_sprite = TILES_SPAWNED[?coords];
-		
-		ds_map_add(TILES_START_Y, coords, layer_sprite_get_y(tile_sprite));
-		ds_list_add(TILES_WITH_Z_OFFSET, coords);
-	}
-	
-	ds_map_replace(TILE_ZOFFSETS, coords, zoffset);
-}
-*/
 
 if keyboard_check_pressed(ord("R")) {
 	room_restart();

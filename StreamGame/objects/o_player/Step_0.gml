@@ -15,12 +15,15 @@ if movement_input_x != 0 {
 
 if (abs(movement_input_x) != 0 || abs(movement_input_y) != 0) {
 	// Then we have given movement inputs!
+	
 	var movement_dir = point_direction(0,0,movement_input_x,movement_input_y);
 	
 	var this_frame_movement_pixels = movespeed_base * SLOMO_SECONDS;
 	
-	x += lengthdir_x(this_frame_movement_pixels, movement_dir);
-	y += lengthdir_y(this_frame_movement_pixels, movement_dir);
+	x += lengthdir_x( this_frame_movement_pixels, movement_dir );
+	y += lengthdir_y( this_frame_movement_pixels, movement_dir );
+	
+	grid_pos = world_to_grid(x,y);
 	
 	if z >= 0 {
 		#region Player bounce
