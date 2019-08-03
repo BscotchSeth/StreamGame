@@ -67,7 +67,7 @@ while !ds_priority_empty(spawn_order) {
 	var sprite_to_spawn = sp_tl_main;
 	
 	if TERRAIN_TYPES[?this_coord] == terrain_type.edge {
-		sprite_to_spawn = sp_tl_main;
+		sprite_to_spawn = sp_tl_edge;
 	}
 	
 	var world_xy = grid_to_world(this_xy[0], this_xy[1]);

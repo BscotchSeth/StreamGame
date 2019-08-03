@@ -1,8 +1,8 @@
 {
-    "id": "9d4d506e-b87a-431e-93bc-299cc82a459d",
+    "id": "2b57c014-fb7c-4442-b32b-4342f5677b07",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "y_to_grid",
+    "name": "sprite_copy_origin",
     "IsCompatibility": false,
     "IsDnD": false
 }

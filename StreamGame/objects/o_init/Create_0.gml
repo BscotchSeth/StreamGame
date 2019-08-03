@@ -25,5 +25,6 @@ echo("Coord:", coord);
 var xy = coord_to_grid(coord);
 echo(xy);
 
+sprite_copy_origin(sp_tl_main, sp_tl_edge);
 
 room_goto(rm_mainmenu);
