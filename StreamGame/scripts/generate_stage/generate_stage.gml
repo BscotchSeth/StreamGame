@@ -7,10 +7,6 @@ Rooms are connected by "hallways" or "bridges"
 clear_world_tiles();
 WORLD_LAYER = layer_create(TERRAIN_DEPTH);
 
-ds_map_clear(TERRAIN_TYPES);
-ds_list_clear(ROOM_CENTERS);
-ds_list_clear(TERRAIN_LOCATIONS);
-
 var num_rooms		= irandom_range(5,100);
 var room_min_radius	= 3;
 var room_max_radius	= 7;
@@ -105,6 +101,7 @@ while !ds_priority_empty(spawn_order) {
 		world_xy[1]+irandom_range(-2,2), sprite_to_spawn);
 	
 	layer_sprite_blend(sp, color_darken(c_white, random_range(.93,1)));
+	ds_map_add(TILES_SPAWNED, this_coord, sp);
 	ds_list_add(TILES_LIST, sp);
 }
 

@@ -6,6 +6,11 @@ globalvar TERRAIN_LOCATIONS; TERRAIN_LOCATIONS = ds_list_create();
 
 globalvar TILES_LIST; TILES_LIST = ds_list_create();
 
+globalvar TILES_SPAWNED; TILES_SPAWNED				= ds_map_create();
+globalvar TILE_ZOFFSETS; TILE_ZOFFSETS				= ds_map_create();
+globalvar TILES_WITH_Z_OFFSET; TILES_WITH_Z_OFFSET	= ds_list_create();
+globalvar TILES_START_Y; TILES_START_Y				= ds_map_create();
+
 globalvar TERRAIN_TYPES; TERRAIN_TYPES = ds_map_create();
 
 enum terrain_type {
