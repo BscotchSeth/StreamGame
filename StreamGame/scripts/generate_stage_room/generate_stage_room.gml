@@ -16,7 +16,3 @@ for ( var xg = room_center_xg-room_radius; xg <= room_center_xg+room_radius; xg+
 		}
 	}
 }
-
-var room_xy = grid_to_world(room_center_xg, room_center_yg);
-
-instance_create(o_berry, room_xy[0], room_xy[1]);

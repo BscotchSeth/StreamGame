@@ -1,3 +1,5 @@
+image_speed = 0;
+
 width		= 30;
 height		= 30;
 shadow_draw = true;

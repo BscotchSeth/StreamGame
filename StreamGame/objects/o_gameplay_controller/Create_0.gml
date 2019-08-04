@@ -12,3 +12,7 @@ camera_set_target(player_instance);
 generate_stage();
 
 restarting_room = false;
+
+if debug_mode {
+	instance_create(o_hitbox_draw);	
+}
