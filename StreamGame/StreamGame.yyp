@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "1d4b97c5-d738-4913-a367-96008a3e1290",
+            "Value": {
+                "id": "2fad9f49-c004-4632-9a9c-a563818b6c6a",
+                "resourcePath": "scripts\\set_mask\\set_mask.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1ec12eca-6600-41a5-a018-cf0b447b1e34",
             "Value": {
                 "id": "c9720f64-16f7-4af7-80db-f4f16a43c19b",
@@ -156,6 +164,14 @@
                 "id": "92ae1aaa-2ecf-404a-be33-56e8f6553857",
                 "resourcePath": "views\\1f256806-ebab-462a-9b87-802d72f107ba.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "219d615a-a063-4c6e-9889-8d8002eecb87",
+            "Value": {
+                "id": "bc88820d-8739-4a4b-919b-4ddb4c68a946",
+                "resourcePath": "scripts\\draw_ellipse_centered\\draw_ellipse_centered.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -791,6 +807,14 @@
             }
         },
         {
+            "Key": "c836b7e4-93f3-4fa7-a1b5-70203fb1a55d",
+            "Value": {
+                "id": "a26ed66e-14a3-4464-942e-d7abe2ebbc45",
+                "resourcePath": "sprites\\sp_mask_circular\\sp_mask_circular.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cc15a010-31b3-4109-825a-afa3d1c5f706",
             "Value": {
                 "id": "8931429c-80bb-4830-948b-f58046782b70",
@@ -996,13 +1020,14 @@
         "0137290b-db3f-4de6-8045-ac70ab3bfd03",
         "ab908dce-72c0-47de-82d0-c8c97e4485e4",
         "60ac693c-fac7-43d8-a775-7e3bec0e3843",
+        "c762a509-33ae-428f-9ae8-9445cbf837d9",
+        "219d615a-a063-4c6e-9889-8d8002eecb87",
         "6868a49b-9819-4f60-8681-6b9df6e18108",
         "42b0124e-ae76-4867-b664-904319ca5409",
         "5811bdac-0f0b-43b7-a401-f28563537f14",
         "ffbc3d88-051c-4577-b171-dca1a38ceece",
         "57d48f90-91da-44b0-ab0d-a33411a28e61",
         "95a57b73-13b2-4fe5-a14f-2da19eaab9cb",
-        "c762a509-33ae-428f-9ae8-9445cbf837d9",
         "9500f067-7f1b-4d53-8f0c-8dda3d2f46ad",
         "1cd0119f-a1d5-4cd2-a4c1-f923bff9dd17",
         "6fb0dca3-d72a-40c6-aa57-55260e17a4f7",
@@ -1019,6 +1044,7 @@
         "e6ebb407-f302-480c-a75f-bc816414d100",
         "8503774a-85cd-490f-a302-5a4e005b02cd",
         "57109586-33ba-43c6-9321-7a9b3777b0a5",
+        "1d4b97c5-d738-4913-a367-96008a3e1290",
         "742a4866-0118-4878-b2b8-da31b476c3d0",
         "04fe7c97-c3c3-44cf-ad08-441dde338a9f",
         "c2ce6c73-a9d2-4e40-85f8-f97d801a55f9",

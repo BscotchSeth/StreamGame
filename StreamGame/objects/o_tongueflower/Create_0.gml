@@ -12,3 +12,5 @@ height		= 70*scalemod;
 xscale		= choose(-1,1);
 
 anim_timer = random(10);
+
+set_mask(width);
