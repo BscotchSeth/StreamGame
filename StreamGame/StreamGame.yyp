@@ -287,6 +287,14 @@
             }
         },
         {
+            "Key": "4318126c-e67f-4506-9238-b962c35ec4c9",
+            "Value": {
+                "id": "dbb6f05b-ebbd-436d-9a0f-3e0c26f233bd",
+                "resourcePath": "sprites\\sp_tongueflower\\sp_tongueflower.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "47da574d-5807-4a63-b23b-4deefdbe8661",
             "Value": {
                 "id": "38c29718-9bb6-42eb-978b-5622260b2b06",
