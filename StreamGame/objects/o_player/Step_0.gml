@@ -22,18 +22,33 @@ if mouse_check_button_pressed(mb_left) {
 				charge_y_target = ycheck;
 				charge_direction = point_direction(x,y,charge_x_target,charge_y_target);
 				charging		= true;
+				camera_shake(7);
 			}
 		}
 	}
 }
 #endregion
 
+
+
 if charging {
 	// Fly toward the target!
 	var dist_to_target	= point_distance(x,y,charge_x_target,charge_y_target);
 	var chargedist		= min(dist_to_target, charge_speed*SLOMO_SECONDS);
-	x += lengthdir_x(chargedist, charge_direction);
-	y += lengthdir_y(chargedist, charge_direction);
+	
+	var charge_x_end = x + lengthdir_x(chargedist, charge_direction);
+	var charge_y_end = y + lengthdir_y(chargedist, charge_direction);
+	
+	var particle_iteration_distance = 10;
+	var dist_to_next = point_distance(x,y,charge_x_end,charge_y_end);
+	for ( var d = 0; d < dist_to_next; d += particle_iteration_distance) {
+		part_particles_create(charge_ps,
+			x+lengthdir_x(d, charge_direction)+random_range(-5,5),
+			y+lengthdir_y(d, charge_direction)-z-height*.5+random_range(-5,5), charge_pt, 1);	
+	}
+	
+	x = charge_x_end;
+	y = charge_y_end;
 	
 	if point_distance(x,y,charge_x_target,charge_y_target) < 1 {
 		charging = false;
@@ -97,3 +112,4 @@ else {
 }
 
 update_world_depth();
+part_system_depth(charge_ps, depth+1);

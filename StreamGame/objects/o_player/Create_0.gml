@@ -16,11 +16,25 @@ leg_position	= 1;
 moving			= false;
 
 charge_direction	= 0;
-charge_speed		= 2000;
+charge_speed		= 3000;
 charge_x_target		= x;
 charge_y_target		= y;
 charging			= false;
 
+ptm_setup();
+
+charge_ps = ptm_create_system();
+charge_pt = ptm_create_type();
+
+part_type_sprite(		charge_pt,	sp_particles_magic, false, false, true);
+part_type_color2(		charge_pt,  rgb(30,100,255), rgb(255,100,20));
+part_type_life(			charge_pt,	.2*room_speed, .35*room_speed);
+part_type_alpha2(		charge_pt,  1, 0);
+part_type_size(			charge_pt,	.8, 1, -.02, 0);
+part_type_speed(		charge_pt,	50/room_speed, 100/room_speed, 0, 0);
+part_type_direction(	charge_pt,	0, 359, 360/room_speed, 0);
+part_type_blend(		charge_pt,	true);
+part_type_orientation(	charge_pt,	0, 359, 360/room_speed, 0, false);
 #region Animations
 anim_timer	= 0;
 

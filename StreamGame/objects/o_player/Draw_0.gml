@@ -6,7 +6,7 @@ var xdraw_base = x;
 var ydraw_base = y-height*.5+z;
 
 if charging {
-	draw_sprite_ext(sp_mainchar_attack, 0, xdraw_base, ydraw_base, random_range(.8,1.2), choose(-1,1), charge_direction, c_white, 1);
+	draw_sprite_ext(sp_mainchar_attack, 0, xdraw_base, ydraw_base, random_range(.7,1.4), choose(-1,1), charge_direction, c_white, 1);
 }
 else {
 	limb_alpha[bodypart_head_blink]		= is_blinking();

@@ -540,6 +540,45 @@
          stdDeviation="0.64851031"
          id="feGaussianBlur5828" />
     </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter5955"
+       x="-0.24612686"
+       width="1.4922537"
+       y="-0.17950208"
+       height="1.3590042">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.8757035"
+         id="feGaussianBlur5957" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter6123"
+       x="-0.36277327"
+       width="1.7255465"
+       y="-0.15256824"
+       height="1.3051365">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.4292855"
+         id="feGaussianBlur6125" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter6359"
+       x="-0.27678734"
+       width="1.5535747"
+       y="-0.47735418"
+       height="1.9547084">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="3.624596"
+         id="feGaussianBlur6361" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -548,14 +587,14 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="983.77635"
-     inkscape:cy="-25.960847"
+     inkscape:zoom="5.6"
+     inkscape:cx="693.32174"
+     inkscape:cy="152.50762"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:object-nodes="true"
-     showguides="false"
+     showguides="true"
      inkscape:window-width="2560"
      inkscape:window-height="1387"
      inkscape:window-x="2552"
@@ -1823,7 +1862,7 @@
     <rect
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="C:\GameDev\StreamGame\Art\PNGs\sp_mainchar_body.png"
+       inkscape:export-filename="C:\GameDev\StreamGame\Art\PNGs\sp_mainchar_charge.png"
        y="991.34583"
        x="811.11151"
        height="160.96283"
@@ -2141,6 +2180,126 @@
          style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#00ffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter5014);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
          d="m 845.9375,1018.2715 a 13.876133,54.80025 0 0 0 -1.58789,0.4258 13.876133,54.80025 0 0 1 11.17187,33.58 c 1.0511,-0.65 2.00876,-1.2566 3.0293,-1.9257 a 13.876133,54.80025 0 0 0 -12.61328,-32.0801 z m 12.88867,34.6152 c -0.83983,0.6784 -1.44005,1.1684 -1.45898,1.2442 -0.21472,0.8588 0.50581,1.2728 1.70508,1.4414 a 13.876133,54.80025 0 0 0 -0.2461,-2.6856 z m 0.8711,13.4746 c -0.50957,0.3009 -0.95946,0.5997 -1.32032,0.9004 -0.62429,0.5203 -1.23585,1.0729 -1.84961,1.6192 a 13.876133,54.80025 0 0 1 0.0527,4.1894 13.876133,54.80025 0 0 1 -0.17578,8.2031 c 1.08124,-0.4481 2.15442,-0.8941 3.2832,-1.3652 a 13.876133,54.80025 0 0 0 0.125,-6.8379 13.876133,54.80025 0 0 0 -0.11523,-6.709 z m -1.21094,29.9571 c -0.90984,0.1299 -2.88161,0.2015 -3.26953,0.2265 a 13.876133,54.80025 0 0 1 -0.002,0.01 c 0.0356,8e-4 0.0481,0 0.13086,0 0.82295,0 1.92649,-0.075 3.14063,-0.2265 a 13.876133,54.80025 0 0 0 0,-0.012 z m -0.41016,3.1738 c -0.18272,0.023 -0.59615,0.079 -0.70898,0.094 -0.83875,0.1094 -1.70986,0.2632 -2.59961,0.4356 a 13.876133,54.80025 0 0 1 -10.47266,27.4199 13.876133,54.80025 0 0 0 1.64258,0.4297 13.876133,54.80025 0 0 0 12.13867,-28.3789 z"
          id="path4988" />
+    </g>
+    <rect
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ff4c4e;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       id="rect5858"
+       width="79.597198"
+       height="71.101906"
+       x="1360.0383"
+       y="1079.26" />
+    <rect
+       y="1084.9744"
+       x="1313.2526"
+       height="71.101906"
+       width="79.597198"
+       id="rect5860"
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#4a4cff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    <rect
+       y="1188.1886"
+       x="1357.1812"
+       height="71.101906"
+       width="79.597198"
+       id="rect5862"
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ff4c4e;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    <rect
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#4a4cff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       id="rect5864"
+       width="79.597198"
+       height="71.101906"
+       x="1310.3954"
+       y="1193.903" />
+    <path
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ff98ff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="M 1357.1816 1193.9023 L 1357.1816 1259.291 L 1389.9922 1259.291 L 1389.9922 1193.9023 L 1357.1816 1193.9023 z "
+       id="rect5866" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="C:\GameDev\StreamGame\Art\PNGs\sp_particle_magic_2.png"
+       y="878.38879"
+       x="680.8269"
+       height="69.310699"
+       width="66.32592"
+       id="rect5873"
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#121212;fill-opacity:0.34117647;fill-rule:evenodd;stroke:none;stroke-width:1.15650547;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    <g
+       id="g5963"
+       transform="translate(-0.38786647,1.1002562)">
+      <path
+         style="fill:#ffffff;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter5955)"
+         d="m 728.03571,892.71935 c -8.38378,7.09113 -19.71044,9.65064 -27.67857,17.32143 3.94292,6.43726 9.42221,11.7345 13.69447,17.93506 0.91976,0.97672 1.83713,3.27358 3.08611,3.19038 2.93068,-5.08448 4.26115,-10.85897 6.15969,-16.36301 1.39393,-4.38353 2.55965,-8.84469 3.36722,-13.37273 0.82107,-2.80512 2.46204,-5.7401 1.37108,-8.71113 z"
+         id="path5925"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path5875"
+         d="m 726.00587,895.57649 c -7.1407,6.0328 -16.77672,8.22261 -23.565,14.74713 3.70418,5.9752 8.84913,10.87906 12.70962,16.74256 0.43467,1.87397 2.91814,0.67735 2.66164,-0.86467 2.27936,-5.0687 3.63674,-10.47888 5.33895,-15.75284 1.0006,-3.48314 1.42968,-7.11917 2.71407,-10.51888 0.43285,-1.39881 0.67918,-2.94577 0.14072,-4.3533 z"
+         style="fill:#ffffff;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <rect
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#121212;fill-opacity:0.34117647;fill-rule:evenodd;stroke:none;stroke-width:1.15650547;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       id="rect5967"
+       width="66.32592"
+       height="69.310699"
+       x="611.5412"
+       y="877.6745"
+       inkscape:export-filename="C:\GameDev\StreamGame\Art\PNGs\sp_particle_magic_1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       style="fill:#ffffff;stroke:none;filter:url(#filter6359)"
+       id="g6127"
+       transform="translate(-71.782177,1.7385507)">
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path6129"
+         d="m 700.77205,915.40815 16.03527,4.29486 15.3933,-5.18771 -13.03571,-13.03572 z"
+         style="fill:#ffffff;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <g
+       transform="matrix(0.92045454,0,0,0.92045454,-14.788944,74.171952)"
+       id="g5969"
+       style="fill:#ffffff;stroke:none">
+      <path
+         style="fill:#ffffff;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 700.77205,915.40815 16.03527,4.29486 15.3933,-5.18771 -13.03571,-13.03572 z"
+         id="path5975"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc" />
+    </g>
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="C:\GameDev\StreamGame\Art\PNGs\sp_particle_magic_0.png"
+       y="877.31738"
+       x="537.61261"
+       height="69.310699"
+       width="66.32592"
+       id="rect5977"
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#121212;fill-opacity:0.34117647;fill-rule:evenodd;stroke:none;stroke-width:1.15650547;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    <g
+       style="fill:#ffffff;stroke:none;filter:url(#filter6123)"
+       transform="translate(-147.50183,1.2434794)"
+       id="g5983">
+      <path
+         sodipodi:nodetypes="cccc"
+         style="fill:#ffffff;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 710.745,898.04766 15.35715,-6.07142 -16.07143,38.21428 z"
+         id="path5985"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g5979"
+       transform="matrix(0.84444446,0,0,0.84444446,-35.802617,142.96755)"
+       style="fill:#ffffff;stroke:none">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5981"
+         d="m 710.745,898.04766 15.35715,-6.07142 -16.07143,38.21428 z"
+         style="fill:#ffffff;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         sodipodi:nodetypes="cccc" />
     </g>
   </g>
 </svg>
