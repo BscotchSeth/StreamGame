@@ -20,6 +20,7 @@ if mouse_check_button_pressed(mb_left) {
 			if world_pos_open(xcheck, ycheck, true) {
 				charge_x_target = xcheck;
 				charge_y_target = ycheck;
+				charge_direction = point_direction(x,y,charge_x_target,charge_y_target);
 				charging		= true;
 			}
 		}
@@ -30,10 +31,9 @@ if mouse_check_button_pressed(mb_left) {
 if charging {
 	// Fly toward the target!
 	var dist_to_target	= point_distance(x,y,charge_x_target,charge_y_target);
-	var dir_to_target	= point_direction(x,y,charge_x_target,charge_y_target);
 	var chargedist		= min(dist_to_target, charge_speed*SLOMO_SECONDS);
-	x += lengthdir_x(chargedist, dir_to_target);
-	y += lengthdir_y(chargedist, dir_to_target);
+	x += lengthdir_x(chargedist, charge_direction);
+	y += lengthdir_y(chargedist, charge_direction);
 	
 	if point_distance(x,y,charge_x_target,charge_y_target) < 1 {
 		charging = false;
