@@ -1,3 +1,5 @@
+moving = false;
+
 var movement_input_x = 0;
 var movement_input_y = 0;
 
@@ -15,6 +17,7 @@ if movement_input_x != 0 {
 
 if (abs(movement_input_x) != 0 || abs(movement_input_y) != 0) {
 	// Then we have given movement inputs!
+	moving = true;
 	
 	var movement_dir = point_direction(0,0,movement_input_x,movement_input_y*GRID_RATIO);	
 	var this_frame_movement_pixels = movespeed_base * SLOMO_SECONDS;
@@ -30,6 +33,10 @@ if (abs(movement_input_x) != 0 || abs(movement_input_y) != 0) {
 		squish_set(.1);
 		#endregion
 	}
+}
+
+if z < 0 {
+	moving = true;	
 }
 
 update_z();
