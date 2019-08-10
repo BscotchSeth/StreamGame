@@ -13,8 +13,14 @@ movespeed_base	= 400;
 
 leg_position	= 1;
 
-moving		= false;
+moving			= false;
 
+charge_speed	= 4000;
+charge_x_target = x;
+charge_y_target = y;
+charging		= false;
+
+#region Animations
 anim_timer	= 0;
 
 var body_xoffset = sprite_get_xoffset(sp_mainchar_body);
@@ -40,3 +46,4 @@ for ( var i = 0; i < array_length_1d(limb_xoffset); i++) {
 	limb_xoffset[i]	= 0;
 	limb_yoffset[i]	= 0;
 }
+#endregion
