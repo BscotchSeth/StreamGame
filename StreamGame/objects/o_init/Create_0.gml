@@ -27,4 +27,6 @@ echo(xy);
 
 sprite_copy_origin(sp_tl_main, sp_tl_edge, sp_tl_bridge);
 
+resolution_set();
+
 room_goto(rm_mainmenu);
