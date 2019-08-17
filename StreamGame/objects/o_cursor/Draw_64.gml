@@ -1,0 +1,1 @@
+draw_sprite_ext(sp_cursor_hand, 0, CURSOR_XGUI, CURSOR_YGUI, 1, 1, 0, c_white, 1);
