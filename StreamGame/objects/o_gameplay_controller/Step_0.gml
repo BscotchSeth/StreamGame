@@ -27,3 +27,7 @@ for ( var i = ds_list_size(TILES_WITH_Z_OFFSET)-1; i >= 0; i--){
 if keyboard_check_pressed(ord("R")) {
 	room_restart();
 }
+
+if keyboard_check_pressed(vk_escape) {
+	trigger_back_action();
+}
