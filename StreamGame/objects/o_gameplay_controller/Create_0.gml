@@ -16,3 +16,5 @@ restarting_room = false;
 if debug_mode {
 	instance_create(o_hitbox_draw);	
 }
+
+instance_create(o_gameplay_interface);

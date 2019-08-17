@@ -5,7 +5,7 @@ dash_attack_cooldown -= SLOMO_SECONDS;
 #endregion
 
 #region Charge Attack Input
-if mouse_check_button_pressed(mb_left) {
+if keyboard_check_pressed(ord("Q")) {
 	if dash_attack_cooldown <= 0 {
 		var charge_x_attempt = mouse_x;
 		var charge_y_attempt = mouse_y;

@@ -6,7 +6,7 @@ set_mask(100);
 
 #region Abilities
 dash_attack_cooldown	= 0;
-dash_attack_maxcool		= .5;
+dash_attack_maxcool		= 1;
 #endregion
 
 keyboard_inputs[0] = ord("D");

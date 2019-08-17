@@ -1,33 +1,23 @@
 {
-    "id": "60290c2a-1a4b-4a43-82aa-24b4c5da6ba1",
+    "id": "81140c81-daf9-4144-ad80-6afa615aad56",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_berry",
+    "name": "o_gameplay_interface",
     "eventList": [
         {
-            "id": "5571cdf6-a02d-40db-993e-24978d2e4e9c",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 8,
-            "m_owner": "60290c2a-1a4b-4a43-82aa-24b4c5da6ba1"
-        },
-        {
-            "id": "39c788a4-3d0a-4862-bc53-e0927fc21342",
+            "id": "b92772a1-81bb-42c4-a06d-be680becdbcd",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "60290c2a-1a4b-4a43-82aa-24b4c5da6ba1"
+            "m_owner": "81140c81-daf9-4144-ad80-6afa615aad56"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "297c4329-2c3a-44fe-ab51-652630a45d14",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

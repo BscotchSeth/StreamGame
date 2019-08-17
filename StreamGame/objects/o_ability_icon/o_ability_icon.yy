@@ -1,33 +1,43 @@
 {
-    "id": "60290c2a-1a4b-4a43-82aa-24b4c5da6ba1",
+    "id": "f8bae519-3313-4201-9f2c-329cccce58ef",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_berry",
+    "name": "o_ability_icon",
     "eventList": [
         {
-            "id": "5571cdf6-a02d-40db-993e-24978d2e4e9c",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 8,
-            "m_owner": "60290c2a-1a4b-4a43-82aa-24b4c5da6ba1"
-        },
-        {
-            "id": "39c788a4-3d0a-4862-bc53-e0927fc21342",
+            "id": "f38785b3-68d6-4762-80d2-7f6c41ca4aec",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "60290c2a-1a4b-4a43-82aa-24b4c5da6ba1"
+            "m_owner": "f8bae519-3313-4201-9f2c-329cccce58ef"
+        },
+        {
+            "id": "8c84aad4-a80e-4011-b0da-4ba428366001",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 64,
+            "eventtype": 8,
+            "m_owner": "f8bae519-3313-4201-9f2c-329cccce58ef"
+        },
+        {
+            "id": "73e3ef3d-0d74-414a-9c7d-dfca3f6b7ca7",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "f8bae519-3313-4201-9f2c-329cccce58ef"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "297c4329-2c3a-44fe-ab51-652630a45d14",
+    "parentObjectId": "bb86b840-2312-4dbd-ae10-a188c181fea5",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
