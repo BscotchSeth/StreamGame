@@ -9,10 +9,10 @@ dash_attack_cooldown	= 0;
 dash_attack_maxcool		= 1;
 #endregion
 
-keyboard_inputs[0] = ord("D");
-keyboard_inputs[1] = ord("W");
-keyboard_inputs[2] = ord("A");
-keyboard_inputs[3] = ord("S");
+walk_inputs[0] = input_action.walk_right;
+walk_inputs[1] = input_action.walk_up;
+walk_inputs[2] = input_action.walk_left;
+walk_inputs[3] = input_action.walk_down;
 
 movespeed_base	= 400;
 
