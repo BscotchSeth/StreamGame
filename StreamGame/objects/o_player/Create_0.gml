@@ -1,6 +1,7 @@
 event_inherited();
 
-height	= 114;
+player_id	= 0;
+height		= 114;
 
 set_mask(100);
 

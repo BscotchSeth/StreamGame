@@ -951,6 +951,14 @@
             }
         },
         {
+            "Key": "b5fdb7b1-bd67-4527-803f-a8b563c2da53",
+            "Value": {
+                "id": "fd5875ed-5a93-4012-8502-33381bc8417d",
+                "resourcePath": "views\\b5fdb7b1-bd67-4527-803f-a8b563c2da53.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "b6f49b07-c907-4f80-8004-f43f7368a12b",
             "Value": {
                 "id": "d85fec12-a040-481d-a23b-0bce095ca435",
@@ -1075,6 +1083,14 @@
             "Value": {
                 "id": "6c64b2d1-1e77-42b0-a5b2-f502a5a9e335",
                 "resourcePath": "scripts\\input_released\\input_released.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "ce984818-3499-4448-972b-30e68c2839c8",
+            "Value": {
+                "id": "6d3aca44-fdbd-4294-ae9d-eba285fa242b",
+                "resourcePath": "scripts\\ds_list_delete_element\\ds_list_delete_element.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1211,6 +1227,14 @@
             "Value": {
                 "id": "947769eb-572d-42cb-b560-58a0fdacd73b",
                 "resourcePath": "scripts\\view_center_x\\view_center_x.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "ee94033a-e21e-4f8b-8126-a93a50ee334a",
+            "Value": {
+                "id": "1799b4a0-2371-4a21-a347-315d3c55de71",
+                "resourcePath": "scripts\\ds_list_contains\\ds_list_contains.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1376,6 +1400,8 @@
         "41061a77-194a-494f-be84-b27f5d8d0c9d",
         "6a020f4c-a079-4a60-907d-f8b9c6c83f5e",
         "e27dac46-5e89-4ea5-bbfd-ac088d1f9962",
+        "ee94033a-e21e-4f8b-8126-a93a50ee334a",
+        "ce984818-3499-4448-972b-30e68c2839c8",
         "e6ebb407-f302-480c-a75f-bc816414d100",
         "8503774a-85cd-490f-a302-5a4e005b02cd",
         "57109586-33ba-43c6-9321-7a9b3777b0a5",

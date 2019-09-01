@@ -14,4 +14,6 @@ INPUT_INFO[input_id, input_info.controller]			= input_controller;
 INPUT_INFO[input_id, input_info.keyboard_default]	= input_kb;
 INPUT_INFO[input_id, input_info.controller_default]	= input_controller;
 
-INPUT_STATES[input_id] = input_state.none;
+for ( var p = 0; p < MAX_PLAYERS; p++){
+	INPUT_STATES[p, input_id] = input_state.none;
+}

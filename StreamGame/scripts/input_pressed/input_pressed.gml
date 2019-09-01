@@ -1,5 +1,7 @@
+/// @arg player_id
 /// @arg input_id
 
-var the_input = argument0;
+var pid			= argument0;
+var the_input	= argument1;
 
-return INPUT_STATES[the_input] == input_state.pressed;
+return INPUT_STATES[pid, the_input] == input_state.pressed;

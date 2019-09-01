@@ -5,7 +5,7 @@ dash_attack_cooldown -= SLOMO_SECONDS;
 #endregion
 
 #region Charge Attack Input
-if input_pressed(input_action.dash) {
+if input_pressed(player_id, input_action.dash) {
 	if dash_attack_cooldown <= 0 {
 		var charge_x_attempt = mouse_x;
 		var charge_y_attempt = mouse_y;
@@ -75,12 +75,12 @@ if charging {
 }
 else {
 	#region Keyboard Inputs
-	var movement_input_x = JOYSTICK_X[0];
-	var movement_input_y = JOYSTICK_Y[0];
+	var movement_input_x = JOYSTICK_X[player_id, 0];
+	var movement_input_y = JOYSTICK_Y[player_id, 0];
 	
 	if (movement_input_x == 0 && movement_input_y == 0) {
 		for ( var i = 0; i < array_length_1d(walk_inputs); i++) {
-			if input_held(walk_inputs[i]) {
+			if input_held(player_id, walk_inputs[i]) {
 				var this_movement_direction = i*90;
 				movement_input_x += lengthdir_x(1, this_movement_direction);
 				movement_input_y += lengthdir_y(1, this_movement_direction);

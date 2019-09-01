@@ -19,10 +19,24 @@ for ( var i = ds_list_size(TILES_WITH_Z_OFFSET)-1; i >= 0; i--){
 	}
 }
 
-//if mouse_check_button(mb_left) {
-//	var mouse_grid_xy = world_to_grid(mouse_x, mouse_y);
-//	tile_set_z(mouse_grid_xy[0], mouse_grid_xy[1], 50);
-//}
+var num_players_required = max(1, ds_list_size(ACTIVE_GAMEPADS));
+if instance_number(o_player) < num_players_required {
+	var player_ids_required = ds_list_create();
+	for ( var i = 0; i < num_players_required; i++){
+		ds_list_add(player_ids_required, i);
+	}
+	
+	with o_player {
+		ds_list_delete_element(player_ids_required, player_id);	
+	}
+	
+	for ( var i = 0; i < ds_list_size(player_ids_required); i++){
+		with instance_create(o_player) {
+			player_id = player_ids_required[|i];	
+		}
+	}
+	ds_list_destroy(player_ids_required);
+}
 
 if keyboard_check_pressed(ord("R")) {
 	room_restart();
