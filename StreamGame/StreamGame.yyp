@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "0e17d10f-1ee7-47d8-8139-d8f367aa1cad",
+            "Value": {
+                "id": "188b2d27-fad5-439c-a366-8aa447143b6e",
+                "resourcePath": "objects\\o_virtual_joystick\\o_virtual_joystick.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0f711bf4-29cc-466b-8482-1b40db6892ce",
             "Value": {
                 "id": "4ee0fafd-6ff8-4385-855d-92f8e3012302",
@@ -1223,6 +1231,14 @@
             }
         },
         {
+            "Key": "f2003008-d2b8-4880-aab8-2f26d891ab25",
+            "Value": {
+                "id": "4861cce4-88ea-43a0-a065-5f67967908de",
+                "resourcePath": "scripts\\interface_element_at_pos\\interface_element_at_pos.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f37d7648-6384-4d79-83d1-71a1d554a7ce",
             "Value": {
                 "id": "0e1314d1-d063-4358-8817-8e096ba0877d",
@@ -1384,6 +1400,7 @@
         "419578a7-09bf-46ab-870c-de5a357627d1",
         "77c460d5-b3e3-484f-8c99-642681252024",
         "5136735a-5607-465e-ae80-d1e3eb6270ad",
+        "f2003008-d2b8-4880-aab8-2f26d891ab25",
         "fbf2af0a-3449-4012-ace2-0876cf10baf6",
         "f953811b-4b73-4096-8436-42645da0e3f6",
         "45c3f9d7-3b37-4d11-bbb3-f376226d966f",

@@ -1,5 +1,10 @@
 #region Update controller state
 
+for ( var stick = 0; stick < array_length_1d(JOYSTICK_X); stick++){
+	JOYSTICK_X[stick] = 0;
+	JOYSTICK_Y[stick] = 0;
+}
+
 if CURRENT_GAMEPAD == -1 {
 	#region Find an active controller
 	for ( var gp_slot = 0; gp_slot < 5 && CURRENT_GAMEPAD == -1; gp_slot++ ) {
@@ -34,11 +39,6 @@ else {
 		CURRENT_GAMEPAD = -1;	
 	}
 	else {
-		for ( var stick = 0; stick < array_length_1d(JOYSTICK_X); stick++){
-			JOYSTICK_X[stick] = 0;
-			JOYSTICK_Y[stick] = 0;
-		}
-		
 		JOYSTICK_X[0] = gamepad_axis_value(CURRENT_GAMEPAD, gp_axislh);
 		JOYSTICK_Y[0] = gamepad_axis_value(CURRENT_GAMEPAD, gp_axislv);
 		JOYSTICK_X[1] = gamepad_axis_value(CURRENT_GAMEPAD, gp_axisrh);
@@ -48,7 +48,15 @@ else {
 
 #endregion
 
-
+with o_virtual_joystick {
+	var joydist = point_distance(	0,0,	joystick_x,joystick_y);
+	var joydir	= point_direction(	0,0,	joystick_x,joystick_y);
+	
+	if joydist > JOYSTICK_DEADZONE {
+		JOYSTICK_X[0] = joystick_x;
+		JOYSTICK_Y[0] = joystick_y;
+	}
+}
 
 for ( var this_input = 0; this_input < array_height_2d(INPUT_INFO); this_input++) {
 	INPUT_STATES[this_input] = input_state.none;
