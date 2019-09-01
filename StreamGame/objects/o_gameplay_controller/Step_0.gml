@@ -31,9 +31,7 @@ if instance_number(o_player) < num_players_required {
 	}
 	
 	for ( var i = 0; i < ds_list_size(player_ids_required); i++){
-		with instance_create(o_player) {
-			player_id = player_ids_required[|i];	
-		}
+		spawn_player(0,0,player_ids_required[|i]);
 	}
 	ds_list_destroy(player_ids_required);
 }

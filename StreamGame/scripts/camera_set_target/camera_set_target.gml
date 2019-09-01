@@ -3,5 +3,5 @@
 var i_targ = argument0;
 
 with o_camera {
-	instance_target = i_targ;	
+	ds_list_add_unique(instance_targets, i_targ);	
 }
