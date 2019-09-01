@@ -75,14 +75,16 @@ if charging {
 }
 else {
 	#region Keyboard Inputs
-	var movement_input_x = 0;
-	var movement_input_y = 0;
-
-	for ( var i = 0; i < array_length_1d(walk_inputs); i++) {
-		if input_held(walk_inputs[i]) {
-			var this_movement_direction = i*90;
-			movement_input_x += lengthdir_x(1, this_movement_direction);
-			movement_input_y += lengthdir_y(1, this_movement_direction);
+	var movement_input_x = JOYSTICK_X[0];
+	var movement_input_y = JOYSTICK_Y[0];
+	
+	if (movement_input_x == 0 && movement_input_y == 0) {
+		for ( var i = 0; i < array_length_1d(walk_inputs); i++) {
+			if input_held(walk_inputs[i]) {
+				var this_movement_direction = i*90;
+				movement_input_x += lengthdir_x(1, this_movement_direction);
+				movement_input_y += lengthdir_y(1, this_movement_direction);
+			}
 		}
 	}
 
