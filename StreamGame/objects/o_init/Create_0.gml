@@ -10,13 +10,19 @@ randomize();
 init_time();
 init_grid();
 init_stage_generation();
+init_locations();
 init_inputs();
 
 globalvar GRAVITY;			GRAVITY				= 4000;
 
 globalvar BACKGROUND_DEPTH;	BACKGROUND_DEPTH	= 60000;
 globalvar TERRAIN_DEPTH;	TERRAIN_DEPTH		= 50000;
+globalvar WALKOVER_DEPTH;	WALKOVER_DEPTH		= 45000;
+
 globalvar SHADOW_DEPTH;		SHADOW_DEPTH		= 40000;
+
+globalvar CURRENT_STAGE_LEVEL;	CURRENT_STAGE_LEVEL = 0;
+globalvar CURRENT_LOCATION;		CURRENT_LOCATION = location.farm;
 
 globalvar CURSOR_XGUI;		CURSOR_XGUI = 0;
 globalvar CURSOR_YGUI;		CURSOR_YGUI = 0;

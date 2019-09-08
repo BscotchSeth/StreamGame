@@ -1,0 +1,2 @@
+TERRAIN_LAYER	= layer_create(TERRAIN_DEPTH);
+WALKOVER_LAYER	= layer_create(WALKOVER_DEPTH);

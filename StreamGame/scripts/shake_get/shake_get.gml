@@ -1,0 +1,1 @@
+return random_range(-shake,shake);

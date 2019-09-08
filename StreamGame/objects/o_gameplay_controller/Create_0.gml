@@ -6,7 +6,14 @@ instance_create(o_shadowdraw);
 instance_create(o_camera, 0, 0);
 spawn_player(0,0,0);
 
-generate_stage();
+switch CURRENT_LOCATION {
+	case location.farm:
+		generate_farm();
+		break;
+	default:
+		generate_stage();
+		break;
+}
 
 restarting_room = false;
 

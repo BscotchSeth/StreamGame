@@ -1,0 +1,23 @@
+EPISODE 8!
+- Building a game from scratch for FUN AND LEARNING.
+- Source code available below!
+
+THIS EPISODE:
+- AN ACTUAL PLAN. Rough game design vision.
+
+UP NEXT:
+- The "Farm" hub.
+	- When you leave the farm... HOW DO?
+	- WARP HOLES to deposit your stuff into to teleport it back.
+- Inventory system
+- Full design concept for the combat
+- Enemies / bad things to avoid (hp? damage?)
+- Charge up on the charge attack
+- More plants? What are we doing with these plants?
+- Having plants drop things (inventory)?
+- A SETTINGS MENU!
+
+GAME VISION:
+- Get seeds and farming materials from fighting and exploring.
+- "Farm" with those materials.
+- Turn those materials into things that let you fight better.

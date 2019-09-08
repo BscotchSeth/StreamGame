@@ -1,0 +1,1 @@
+shake = max(0, shake-20*SLOMO_SECONDS);

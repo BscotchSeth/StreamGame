@@ -1,4 +1,5 @@
-globalvar WORLD_LAYER; WORLD_LAYER = -1;
+globalvar TERRAIN_LAYER;	TERRAIN_LAYER = -1;
+globalvar WALKOVER_LAYER;	WALKOVER_LAYER		= -1;
 
 globalvar ROOM_CENTERS; ROOM_CENTERS = ds_list_create();
 globalvar TERRAIN_EDGE_LIST; TERRAIN_EDGE_LIST = ds_list_create();

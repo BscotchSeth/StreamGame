@@ -2,8 +2,8 @@ blink();
 squish_update();
 anim_timer += SLOMO_SECONDS;
 
-var xdraw_base = x;
-var ydraw_base = y-height*.5+z;
+var xdraw_base = x+shake_get();
+var ydraw_base = y-height*.5+z+shake_get();
 
 if charging {
 	draw_sprite_ext(sp_mainchar_attack, 0, xdraw_base, ydraw_base, random_range(.7,1.4), choose(-1,1), charge_direction, c_white, 1);
@@ -78,3 +78,5 @@ else {
 
 	rotation = lerp(rotation, rotation_target, rotation_speed);	
 }
+
+shake_update();
