@@ -8,10 +8,9 @@ THIS EPISODE:
 - There are warp pads on the farm that you can use to go places.
 
 UP NEXT:
-- When you leave the farm... HOW DO?
 - Inventory system
-- WARP HOLES to deposit your stuff into to teleport it back.
 - Full design concept for the combat
+- WARP HOLES to deposit your stuff into to teleport it back.
 - Enemies / bad things to avoid (hp? damage?)
 - Charge up on the charge attack
 - More plants? What are we doing with these plants?

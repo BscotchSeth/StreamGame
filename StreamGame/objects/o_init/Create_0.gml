@@ -12,6 +12,8 @@ init_grid();
 init_stage_generation();
 init_locations();
 init_inputs();
+init_items();
+init_inventory();
 
 globalvar GRAVITY;			GRAVITY				= 4000;
 
