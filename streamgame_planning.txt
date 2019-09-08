@@ -4,12 +4,13 @@ EPISODE 8!
 
 THIS EPISODE:
 - AN ACTUAL PLAN. Rough game design vision.
+- The "Farm" hub.
+- There are warp pads on the farm that you can use to go places.
 
 UP NEXT:
-- The "Farm" hub.
-	- When you leave the farm... HOW DO?
-	- WARP HOLES to deposit your stuff into to teleport it back.
+- When you leave the farm... HOW DO?
 - Inventory system
+- WARP HOLES to deposit your stuff into to teleport it back.
 - Full design concept for the combat
 - Enemies / bad things to avoid (hp? damage?)
 - Charge up on the charge attack

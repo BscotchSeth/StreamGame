@@ -7,6 +7,8 @@ depth		+= WALKOVER_DEPTH;
 destination		= location.underwater;
 image_offset	= 0;
 center_radius	= 64;
+warp_timer		= 0;
+warp_maxtime	= 1;
 
 alarm[0] = 1;
 
