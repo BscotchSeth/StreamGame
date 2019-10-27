@@ -665,9 +665,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="9.4036064"
-     inkscape:cx="1590.6871"
-     inkscape:cy="-84.188536"
+     inkscape:zoom="2.3509016"
+     inkscape:cx="857.46612"
+     inkscape:cy="-223.73122"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -3784,7 +3784,7 @@
        height="85.247192"
        x="1540.051"
        y="1008.7852"
-       inkscape:export-filename="C:\GameDev\StreamGame\Art\PNGs\sp_mainchar_body_run_1.png"
+       inkscape:export-filename="C:\GameDev\StreamGame\Art\PNGs\bomb_off.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <circle
@@ -3855,7 +3855,7 @@
     <rect
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="C:\GameDev\StreamGame\Art\PNGs\sp_mainchar_body_run_1.png"
+       inkscape:export-filename="C:\GameDev\StreamGame\Art\PNGs\bomb_on.png"
        y="1095.7733"
        x="1539.4574"
        height="85.247192"
@@ -3928,5 +3928,30 @@
        cx="1585.0527"
        cy="1138.3969"
        r="11.898808" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="C:\GameDev\StreamGame\Art\PNGs\sp_ability_button.png"
+       y="1329.1134"
+       x="472.96567"
+       height="105"
+       width="105"
+       id="rect5061"
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#121212;fill-opacity:0.34117647;fill-rule:evenodd;stroke:none;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    <g
+       transform="translate(-148.28976,183.38367)"
+       id="g5063">
+      <circle
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:0.14883722;fill-rule:evenodd;stroke:none;stroke-width:0.85723603;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+         id="circle5065"
+         cx="673.75543"
+         cy="1198.2299"
+         r="46.892811" />
+      <path
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.91264671;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+         d="m 669.2017,1148.9145 a 49.543678,49.543678 0 0 0 -44.74804,44.7617 l 5.31445,0 a 44.235428,44.235428 0 0 1 39.43359,-39.3965 l 0,-5.3652 z m 9.10743,0.023 0,5.2988 a 44.235428,44.235428 0 0 1 39.39453,39.4395 l 5.36328,0 a 49.543678,49.543678 0 0 0 -44.75781,-44.7383 z m -53.86524,53.8457 a 49.543678,49.543678 0 0 0 44.75781,44.7402 l 0,-5.3008 a 44.235428,44.235428 0 0 1 -39.39453,-39.4394 l -5.36328,0 z m 93.29883,0 a 44.235428,44.235428 0 0 1 -39.43359,39.3965 l 0,5.3652 a 49.543678,49.543678 0 0 0 44.74804,-44.7617 l -5.31445,0 z"
+         id="path5067"
+         inkscape:connector-curvature="0" />
+    </g>
   </g>
 </svg>
