@@ -1,1 +1,0 @@
-ptm_cleanup();

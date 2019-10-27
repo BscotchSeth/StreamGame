@@ -45,5 +45,6 @@ sprite_copy_origin(sp_tl_main, sp_tl_edge, sp_tl_bridge);
 
 resolution_set();
 instance_create(o_cursor);
+instance_create(o_particle_manager);
 
 room_goto(rm_mainmenu);

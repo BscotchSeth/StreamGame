@@ -28,10 +28,8 @@ charge_x_target		= x;
 charge_y_target		= y;
 charging			= false;
 
-ptm_setup();
-
-charge_ps = ptm_create_system();
-charge_pt = ptm_create_type();
+charge_ps = ptm_create_system(id);
+charge_pt = ptm_create_type(charge_ps);
 
 part_type_sprite(		charge_pt,	sp_particles_magic, false, false, true);
 part_type_color2(		charge_pt,  rgb(30,100,255), rgb(255,100,20));

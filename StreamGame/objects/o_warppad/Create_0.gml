@@ -12,9 +12,8 @@ warp_maxtime	= 1;
 
 alarm[0] = 1;
 
-ptm_setup();
-line_ps = ptm_create_system();
-line_pt = ptm_create_type();
+line_ps = ptm_create_system(id);
+line_pt = ptm_create_type(line_ps);
 
 part_system_depth(	line_ps, -y);
 
