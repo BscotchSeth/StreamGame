@@ -6,7 +6,7 @@ for ( var i = 0; i < array_length_1d(ability_cooldowns); i++){
 }
 #endregion
 
-if input_pressed(player_id, input_action.dash) {
+if input_pressed(player_id, ABILITY_INFO[player_abilities.dash, ability_info.input]) {
 	if ability_is_available(player_abilities.dash) {
 		#region Perform Charge Attack
 		var charge_x_attempt = mouse_x;
@@ -34,6 +34,21 @@ if input_pressed(player_id, input_action.dash) {
 				}
 			}
 		}
+		#endregion
+	}
+}
+
+if input_pressed(player_id, ABILITY_INFO[player_abilities.bomb, ability_info.input]) {
+	if ability_is_available(player_abilities.bomb) {
+		#region Throw Bombs
+		
+		var direction_to_throw_bomb = point_direction(x, y, mouse_x, mouse_y);
+		ability_begin_cooldown(player_abilities.bomb);
+		
+		with instance_create(o_bomb, x, y) {
+			fly_direction = direction_to_throw_bomb;
+		}
+		
 		#endregion
 	}
 }
