@@ -14,6 +14,7 @@ init_locations();
 init_inputs();
 init_items();
 init_inventory();
+init_player_abilities();
 
 globalvar GRAVITY;			GRAVITY				= 4000;
 

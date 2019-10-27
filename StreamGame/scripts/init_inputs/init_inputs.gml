@@ -3,7 +3,8 @@ enum input_action {
 	walk_up,
 	walk_left,
 	walk_down,
-	dash
+	dash,
+	bomb
 }
 
 enum input_info {
@@ -44,5 +45,6 @@ input_setup(input_action.walk_up,		"Walk Up",		ord("W"),	gp_padu);
 input_setup(input_action.walk_left,		"Walk Left",	ord("A"),	gp_padl);
 input_setup(input_action.walk_down,		"Walk Down",	ord("S"),	gp_padd);
 input_setup(input_action.dash,			"Dash",			ord("Q"),	gp_face1);
+input_setup(input_action.bomb,			"Bomb",			ord("E"),	gp_face2);
 
 instance_create(o_input);

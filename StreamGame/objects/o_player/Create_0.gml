@@ -6,8 +6,9 @@ height		= 114;
 set_mask(100);
 
 #region Abilities
-dash_attack_cooldown	= 0;
-dash_attack_maxcool		= 1;
+for (var i = 0; i < array_height_2d(ABILITY_INFO); i++){
+	ability_cooldowns[i] = 0;
+}
 #endregion
 
 walk_inputs[0] = input_action.walk_right;

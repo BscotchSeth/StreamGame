@@ -1,12 +1,14 @@
 moving = false;
 
 #region Decrease cooldowns
-dash_attack_cooldown -= SLOMO_SECONDS;
+for ( var i = 0; i < array_length_1d(ability_cooldowns); i++){
+	ability_cooldowns[i] -= SLOMO_SECONDS;
+}
 #endregion
 
-#region Charge Attack Input
 if input_pressed(player_id, input_action.dash) {
-	if dash_attack_cooldown <= 0 {
+	if ability_is_available(player_abilities.dash) {
+		#region Perform Charge Attack
 		var charge_x_attempt = mouse_x;
 		var charge_y_attempt = mouse_y;
 		
@@ -18,25 +20,23 @@ if input_pressed(player_id, input_action.dash) {
 		
 			for ( var i = 0; i < num_iterations && !charging; i++){
 				var angle_to_check = anglecheck_start+i*angle_interval;
-			
+				
 				var xcheck = charge_x_attempt + lengthdir_x(circle_radius, angle_to_check);
 				var ycheck = charge_y_attempt + lengthdir_y(circle_radius, angle_to_check)*GRID_RATIO;
-			
+				
 				if world_pos_open(xcheck, ycheck, true) {
 					charge_x_target			= xcheck;
 					charge_y_target			= ycheck;
 					charge_direction		= point_direction(x,y,charge_x_target,charge_y_target);
 					charging				= true;
-					dash_attack_cooldown	= dash_attack_maxcool;
+					ability_begin_cooldown(player_abilities.dash);
 					camera_shake(7);
 				}
 			}
 		}
+		#endregion
 	}
 }
-#endregion
-
-
 
 if charging {
 	// Fly toward the target!
